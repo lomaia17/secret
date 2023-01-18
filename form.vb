@@ -20,7 +20,7 @@ Public Class Form1
         vada = Vvada.Text : lik = Vlik.Text : sab = Vsab.Text : weli = Vweli.Text
 
         amor = (sab - lik) / vada
-
+        k = 1 
         For i = weli To Today.Year
             nar = sab - amor * k
             Cxrili.Rows.Add(New String() {Vnomeri.Text, Vdas.Text, i, sab, lik, vada, amor, nar})
